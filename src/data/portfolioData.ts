@@ -36,7 +36,7 @@ export const projectsData = [
     title: "Deep Learning Solutions for Forestry",
     description: "End-to-end pipelines for automatic tree segmentation using state-of-the-art vision models like YOLOv8 and UNet.",
     images: [
-      "DeepL_tree_1.png"
+      "/DeepL_tree_1.png"
     ],
     tags: ["Computer Vision", "YOLOv8", "UNet", "Forestry"],
     links: { demo: "#", github: "https://github.com/Maal1ck" }
@@ -45,22 +45,11 @@ export const projectsData = [
     title: "Open Climate Analysis Tool",
     description: "Python tool for retrieving and analyzing NASA POWER climate data to classify climates using Köppen criteria.",
     images: [
-      "ocat.png"
+      "/ocat.png"
     ],
     tags: ["Python", "NASA POWER", "Climate", "Data Analysis"],
     links: { demo: "#", github: "https://github.com/Maal1ck" }
   }
-  // {
-  //   title: "Smart Agro Map",
-  //   description: "2025 GeoInnov Hackathon winner. An ambitious project to help track soil degradation in West Africa.",
-  //   images: [
-  //     "https://picsum.photos/seed/soil1/800/600",
-  //     "https://picsum.photos/seed/soil2/800/600",
-  //     "https://picsum.photos/seed/soil3/800/600"
-  //   ],
-  //   tags: ["WebGIS", "Agriculture", "Soil Degradation", "Hackathon"],
-  //   links: { demo: "#", github: "https://github.com/Maal1ck" }
-  // }
 ];
 
 export const activitiesData = [
@@ -68,32 +57,22 @@ export const activitiesData = [
     title: "NASA Pale Blue Dot Challenge - Washington DC, USA",
     description: " Winner of the 2024 best overall prize Interational competition.",
     images: [
-      "Nasa_1.jpg",
-      "Nasa_2.jpg",
-      "Nasa_3.jpg"
+      "/Nasa_1.jpg",
+      "/Nasa_2.jpg",
+      "/Nasa_3.jpg"
     ],
     tags: ["Hackathon", "Winner", "NASA"],
     links: { demo: "#", github: "#" }
   },
-  // {
-  //   title: "GeoInnov Hackathon 2025",
-  //   description: "Winner with an ambitious project to help track soil degradation in West Africa alongside Geosenegal and Centre de Suivi Ecologique.",
-  //   images: [
-  //     "https://picsum.photos/seed/hackathon1/800/600",
-  //     "https://picsum.photos/seed/hackathon2/800/600"
-  //   ],
-  //   tags: ["Hackathon", "Winner", "Soil Tracking"],
-  //   links: { demo: "#", github: "#" }
-  // },
   {
     title: "Space Camp Graduate - Alabama, Huntsville, USA",
     description: "Graduated from the United States Space and Rocket Center in Huntsville, Alabama.",
     images: [
-      "Spacecamp_1.jpg",
-      "Spacecamp_2.jpg",
-      "Spacecamp_3.jpg",
-      "Spacecamp_4.jpg",
-      "Spacecamp_5.jpg",
+      "/Spacecamp_1.jpg",
+      "/Spacecamp_2.jpg",
+      "/Spacecamp_3.jpg",
+      "/Spacecamp_4.jpg",
+      "/Spacecamp_5.jpg",
       
     ],
     tags: ["Space Camp", "Education", "USA"],
@@ -103,11 +82,11 @@ export const activitiesData = [
     title: "Reboot the Earth Hackathon - Rabat, Morocco",
     description: "Developed an AI-based solution for climate-resilient crop selection for FAO / Pole digital de l'Agriculture 2025.",
     images: [
-      "reboot1.jpeg",
-      "reboot2.jpg",
-      "reboot3.jpeg",
-      "reboot4.jpg",
-      "reboot5.jpg",
+      "/reboot1.jpeg",
+      "/reboot2.jpg",
+      "/reboot3.jpeg",
+      "/reboot4.jpg",
+      "/reboot5.jpg",
     ],
     tags: ["Hackathon", "FAO", "AI Solution"],
     links: {}
