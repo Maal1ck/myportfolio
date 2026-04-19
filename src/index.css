@@ -1,0 +1,57 @@
+@import "tailwindcss";
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+@theme {
+  --color-base-bg: var(--bg-color);
+  --color-base-card: var(--card-color);
+  --color-accent: var(--accent-color);
+  --color-text-main: var(--text-color);
+  --color-text-muted: var(--muted-color);
+  --color-border-main: var(--border-color);
+  --font-sans: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+:root {
+  --bg-color: #0A0A0B;
+  --card-color: #141416;
+  --accent-color: #22C55E;
+  --text-color: #F4F4F5;
+  --muted-color: #71717A;
+  --border-color: #27272A;
+}
+
+:root.light {
+  --bg-color: #F8F8F8;
+  --card-color: #FFFFFF;
+  --accent-color: #16A34A;
+  --text-color: #0A0A0B;
+  --muted-color: #71717A;
+  --border-color: #E5E5E5;
+}
+
+body {
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.pattern-dots {
+  background-image: radial-gradient(circle at 2px 2px, var(--border-color) 1px, transparent 0);
+  background-size: 24px 24px;
+}
+
+.card-gradient::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 80px;
+  height: 80px;
+  background: linear-gradient(135deg, transparent 50%, rgba(34, 197, 94, 0.08) 50%);
+  pointer-events: none;
+}
