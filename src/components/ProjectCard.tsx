@@ -1,4 +1,4 @@
-import { useState } from "react";
+import React, { useState } from "react";
 import { motion, AnimatePresence } from "motion/react";
 import { ExternalLink, Github, ChevronLeft, ChevronRight } from "lucide-react";
 
@@ -38,7 +38,7 @@ const slideVariants = {
   })
 };
 
-export function ProjectCard({ project, index }: { project: ProjectItem; index: number }) {
+export const ProjectCard: React.FC<{ project: ProjectItem; index: number }> = ({ project, index }) => {
   const [currentImage, setCurrentImage] = useState(0);
   const [direction, setDirection] = useState(0);
 

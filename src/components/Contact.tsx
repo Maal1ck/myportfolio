@@ -1,5 +1,5 @@
 import { motion } from "motion/react";
-import { Mail, MapPin, Send } from "lucide-react";
+import { Mail, MapPin, Send, Github, Linkedin } from "lucide-react";
 
 export function Contact() {
   return (
@@ -63,6 +63,30 @@ export function Contact() {
                   <p className="text-base font-bold text-text-main">
                     +212-660-707-632
                   </p>
+                </div>
+              </div>
+
+              <div className="flex items-start gap-4">
+                <div className="w-10 h-10 rounded bg-base-card border border-border-main flex items-center justify-center text-text-main shrink-0">
+                  <Github size={16} />
+                </div>
+                <div>
+                  <h4 className="text-[10px] font-bold text-text-muted uppercase tracking-[0.1em] mb-1">GitHub</h4>
+                  <a href="https://github.com/Maal1ck" target="_blank" rel="noopener noreferrer" className="text-base font-bold text-text-main hover:text-accent transition-colors">
+                    github.com/Maal1ck
+                  </a>
+                </div>
+              </div>
+
+              <div className="flex items-start gap-4">
+                <div className="w-10 h-10 rounded bg-base-card border border-border-main flex items-center justify-center text-text-main shrink-0">
+                  <Linkedin size={16} />
+                </div>
+                <div>
+                  <h4 className="text-[10px] font-bold text-text-muted uppercase tracking-[0.1em] mb-1">LinkedIn</h4>
+                  <a href="https://linkedin.com/in/malick-dieye" target="_blank" rel="noopener noreferrer" className="text-base font-bold text-text-main hover:text-accent transition-colors">
+                    linkedin.com/in/malick-dieye
+                  </a>
                 </div>
               </div>
             </div>
