@@ -48,8 +48,8 @@ export function Resume() {
           </motion.div>
           
           <motion.a
-            href="/Malick_DIEYE_Resume.pdf"
-            download="Malick_DIEYE_Resume.pdf"
+            href="/Malick_DIEYE_resume.pdf"
+            download="Malick_DIEYE_resume.pdf"
             initial={{ opacity: 0, x: 20 }}
             whileInView={{ opacity: 1, x: 0 }}
             viewport={{ once: true }}

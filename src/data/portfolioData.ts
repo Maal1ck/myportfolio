@@ -86,7 +86,7 @@ export const activitiesData = [
       "/reboot2.jpg",
       "/reboot3.jpeg",
       "/reboot4.jpg",
-      "/reboot5.jpg",
+      // "/reboot5.jpg",
     ],
     tags: ["Hackathon", "FAO", "AI Solution"],
     links: {}
